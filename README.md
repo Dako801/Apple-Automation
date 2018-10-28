@@ -1,4 +1,4 @@
 # Requirements 
-Pytest
-Pip3
+Pytest,
+Pip3,
 Chromedriver

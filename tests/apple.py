@@ -28,4 +28,4 @@ def test_apple_cart():
     driver.find_element_by_css_selector('input[id="checkout.shipping.addressContactEmail.address.emailAddress').send_keys('apple@apple.com')
     driver.find_element_by_css_selector('input[id="checkout.shipping.addressContactPhone.address.fullDaytimePhone').send_keys('8011231234')
     driver.find_element_by_css_selector('button[data-autom="continue-button-label"]').click()
-    assert driver.title == "Shipping Details — Secure Checkout"
+    assert driver.title == "Shipping Details — Secure Checkout
